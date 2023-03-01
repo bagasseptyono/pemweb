@@ -1,0 +1,334 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans';
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: #EDF1D6 ;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav{
+    height: 64px;
+    background-color: #609966;
+    color: #fff;
+    z-index: 99;
+
+}
+
+nav h2{
+    position: absolute;
+    margin-top: 20px;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 24px;
+    line-height: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #C9C9C9;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    background-color: #9DC08B;
+
+}
+.hero .bungkusHero{
+    height: 400px;
+    width: 780px;
+    background-color: #40513B;
+    margin: auto;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.hero .bungkusHero .gambar{
+    width: 160px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/foto.png");
+}
+.hero .bungkusHero .data{
+    margin-left:60px ;
+    color: #EDF1D6;
+}
+
+.hero .bungkusHero .data .link{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    font-size: 32px;
+    flex-direction: row;
+    margin-top: 32px;
+    justify-content: space-around;
+}
+
+
+.data h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+.data .subtitle{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.data .detail{
+    margin-top: 24px;
+    display: flex;
+}
+.data .detail ul li{
+    margin-top: 8px;
+}
+
+.data .detail ul{
+    font-weight: 600;
+}
+.data .detail ul.keterangan{
+    margin-left: 20px;
+    font-weight: 400;
+}
+.data p{
+    margin-top: 48px;
+    text-align: justify;
+    width: 480px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* skill */
+.skill {
+    height: 460px;
+    background-color: #EDF1D6;
+    
+}
+.skill h1{
+    color: #40513B;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 32px;
+}
+
+.skill .bungkusSkill{
+    width: 780px;
+    margin: auto;
+    
+}
+
+.skill .bungkusSkill .dataskill{
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px;
+    width: 370px;
+    height: 100px;
+    background-color: #9DC08B;
+    border-radius: 10px;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.25);
+}
+.skill .bungkusSkill .dataskill img{
+    width: 140px;
+    height: 100px;
+    float: left;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.skill .bungkusSkill .dataskill p{
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    line-height: 20px;
+    float: left;
+    font-size: 14px;
+    color: #40513B;
+}
+
+/* pendidikan */
+.pendidikan {
+    height: 520px;
+    width: 100%;
+    background-color: #9DC08B;
+    display: inline-block;
+}
+
+.pendidikan h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 32px;
+    color: #40513B;
+}
+.pendidikan .data-pendidikan {
+    height: 70px;
+    width: 620px;
+    background-color: #EDF1D6;
+    margin: 32px auto;
+    text-align: center;
+    color: #40513B;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.25);
+}
+
+.pendidikan .data-pendidikan .jenjang{
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.pendidikan .data-pendidikan .tahun{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+/* hobi */
+.hobi   {
+    height: 460px;
+    width: 100%;
+    display: flex;
+    color: #40513B;
+    
+}
+.hobi .bungkus-hobi{
+    margin: auto;
+
+}
+
+.hobi .kiri {
+    width: 300px;
+    height: 280px;
+    margin-left: 80px;
+    float: left;
+}
+
+.hobi .kiri h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.hobi .kiri p{
+    width: 100%;
+    text-align: justify;
+    margin-top: 14px;
+    line-height: 20px;
+}
+
+.hobi .kanan{
+    float: left;
+    width: 460px;
+    height: 280px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.hobi .kanan .item{
+    width: 220px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color: #9DC08B;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+    
+}
+
+.hobi .kanan .item img{
+    width: 180px;
+    height: 210px;
+    margin: auto;
+    margin-top: 20px;
+    object-fit: cover;
+    
+}
+.hobi .kanan .item .title{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+footer{
+    background-color: #40513B;
+    color: #EDF1D6;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    height: 30px;
+    padding-top: 20px;
+}
