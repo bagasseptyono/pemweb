@@ -70,6 +70,7 @@ $productLines = mysqli_query(connection(), $query);
                 <label for="productName" class="mx-2">Product Name</label>
                 <input type="text" class="form-control" id="productName" placeholder="Product Name" name="productName">
             </div>
+
             <div class="form-group mb-3">
                 <label for="productLine" class="mx-2">Product Line</label>
                 <select class="form-control" id="productLine" name="productLine">
@@ -78,6 +79,7 @@ $productLines = mysqli_query(connection(), $query);
                     <?php endwhile; ?>
                 </select>
             </div>
+            
             <div class="form-group mb-3">
                 <label for="productSale" class="mx-2">Product Sale</label>
                 <input type="text" class="form-control" id="productSale" placeholder="Product Sale" name="productSale">
